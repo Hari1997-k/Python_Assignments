@@ -25,6 +25,6 @@ print("Enter The Element To Do Binary Search : ", end="\n")
 ele = int(input())
 res = binary_search(arr, ele)
 if (res == -1):
-    print("The Element Is " , ele, "  Not Founded In The Array ")
+    print("The Element " , ele, "Is  Not Founded In The Array ")
 else:
     print("The Element " , ele, " Is present At Index - ", res)
